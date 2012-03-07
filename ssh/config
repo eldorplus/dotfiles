@@ -4,11 +4,16 @@ Host xbmc
   IdentityFile ~/.ssh/id_rsa
 
 Host katrine1
-  HostName ec2-107-21-150-75.compute-1.amazonaws.com
+  HostName ec2-23-21-176-230.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
   
 Host katrine2
-  HostName ec2-23-20-39-24.compute-1.amazonaws.com
+  HostName ec2-23-20-138-175.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
+Host katrine0
+  HostName ec2-23-20-50-9.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa

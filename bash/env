@@ -7,6 +7,7 @@ export EC2_URL=https://ec2.us-east-1.amazonaws.com
 export TMP=$HOME/tmp
 export RACK_ENV=development
 export NODE_PATH=$HOME/.node_libraries
+export EDITOR=/usr/bin/vim
 
 if [[ -f "$HOME/.amazon_keys" ]]; then
     source "$HOME/.amazon_keys";
@@ -17,3 +18,5 @@ export PATH=/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:$PATH
 
 if [ -s ~/.rvm/scripts/rvm ] ; then source ~/.rvm/scripts/rvm ; fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+
+[[ -s $HOME/.tmuxinator/scripts/tmuxinator ]] && source $HOME/.tmuxinator/scripts/tmuxinator
