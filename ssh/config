@@ -17,3 +17,7 @@ Host katrine0
   HostName ec2-23-20-50-9.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
+
+Host heroku.com
+  HostName heroku.com
+  IdentityFile ~/.ssh/id_ea_dev_rsa
