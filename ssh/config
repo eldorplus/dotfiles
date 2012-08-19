@@ -1,5 +1,5 @@
 Host xbmc
-  HostName 192.168.1.5
+  HostName 192.168.0.50
   User xbmc
   IdentityFile ~/.ssh/id_rsa
 
@@ -17,3 +17,16 @@ Host katrine0
   HostName ec2-23-20-50-9.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
+
+Host caseblocks
+  HostName ec2-23-22-244-197.compute-1.amazonaws.com
+  User root
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
+Host cbmail
+  HostName mail.caseblocks.com
+  User root
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
+
+
