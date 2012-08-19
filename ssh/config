@@ -28,5 +28,6 @@ Host cbmail
   User root
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
-
-
+Host heroku.com
+  HostName heroku.com
+  IdentityFile ~/.ssh/id_ea_dev_rsa
