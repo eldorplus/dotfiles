@@ -1,0 +1,4 @@
+#! /usr/bin/env ruby
+local_ip = `ifconfig en0`.match(/inet (\d+\.\d+\.\d+\.\d+)/)[1]
+appname = Dir.getwd[/(\w+)\z/]
+puts "http://#{appname}.#{local_ip}.xip.io"

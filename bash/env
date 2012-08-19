@@ -1,20 +1,21 @@
 export EC2_HOME=$HOME/bin/ec2
 export PATH=$PATH:$EC2_HOME/bin
 export EC2_URL=https://ec2.us-east-1.amazonaws.com
-#export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
-#export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
+export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
+export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
 
 export TMP=$HOME/tmp
 export RACK_ENV=development
 export NODE_PATH=$HOME/.node_libraries
 export EDITOR=/Users/ijonas/bin/subl
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 if [[ -f "$HOME/.amazon_keys" ]]; then
     source "$HOME/.amazon_keys";
 fi
 
 export NODE_PATH=/usr/local/lib/node
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:$PATH
+export PATH=EC2_HOME/bin:/usr/local/sbin:/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:/Applications/Postgres.app/Contents/MacOS/bin:$PATH
 
 eval "$(rbenv init -)"
 
