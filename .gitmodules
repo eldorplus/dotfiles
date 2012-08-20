@@ -10,3 +10,6 @@
 [submodule "node_libraries/node-static"]
 	path = node_libraries/node-static
 	url = https://github.com/cloudhead/node-static.git
+[submodule "vim/bundle/command-t"]
+	path = vim/bundle/command-t
+	url = git://git.wincent.com/command-t.git

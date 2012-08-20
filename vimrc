@@ -2,6 +2,7 @@ set nocompatible
 syntax on
 set encoding=utf-8
 set showcmd
+set number
 filetype plugin indent on
 
 let mapleader = ","
