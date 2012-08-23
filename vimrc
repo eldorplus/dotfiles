@@ -1,3 +1,5 @@
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 set nocompatible
 syntax on
 set encoding=utf-8
@@ -15,7 +17,6 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-call pathogen#runtime_append_all_bundles()
 
 map <leader>c <c-_><c-_>
 map <leader>n :NERDTreeToggle<CR>
