@@ -1,11 +1,12 @@
-call pathogen#helptags()
 call pathogen#runtime_append_all_bundles()
-set nocompatible
+filetype off
 syntax on
+filetype plugin indent on
+
+set nocompatible
 set encoding=utf-8
 set showcmd
 set number
-filetype plugin indent on
 
 let mapleader = ","
 set nowrap
