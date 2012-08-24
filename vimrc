@@ -35,3 +35,5 @@ nmap <D-]> >>
 vmap <D-[> <gv
 vmap <D-]> >gv
 nmap <leader>v :tabedit $MYVIMRC<CR>
+
+set clipboard=unnamed

@@ -27,15 +27,13 @@ alias glog="git log --pretty=tformat:'%h %Cblue%cr%Creset %cn %Cgreen%s%Creset'"
 
 alias edit_env="$EDITOR $HOME/bin/dotfiles/bash"
 alias reload_env="source $HOME/.bashrc"
+alias vim="mvim -v"
 
 alias jrake='jruby -S rake'
 alias jgem='jruby -S gem'
 alias jss='jruby -S script/server'
 
-alias ccnf='cd ~/code/cnf'
-alias cjboss='cd ~/code/jboss-git'
-alias ccspec='cd ~/code/cspec'
-alias cbridge='cd ~/code/bridge'
+alias cdcb='cd ~/Dropbox/code/caseblocks'
 alias h='history'
 alias hq='history | grep'
 
