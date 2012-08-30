@@ -25,6 +25,11 @@ map <leader>n :NERDTreeToggle<CR>
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
 endif 
+
+if has("gui_running")
+  set clipboard=unnamed
+endif
+
 map <leader>ew :e <C-R>=expand("%:p:h") . "/" <CR>
 map <leader>es :sp <C-R>=expand("%:p:h") . "/" <CR>
 map <leader>ev :vsp <C-R>=expand("%:p:h") . "/" <CR>

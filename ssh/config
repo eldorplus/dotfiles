@@ -47,3 +47,7 @@ Host chef-repo
   User git
   IdentityFile ~/.ssh/id_chef_deploy
 
+Host macmini
+  HostName macmini.local
+  User developer
+  IdentityFile ~/.ssh/id_rsa
