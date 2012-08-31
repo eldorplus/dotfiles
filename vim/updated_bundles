@@ -17,6 +17,7 @@ git_bundles = [
   "git://github.com/kien/ctrlp.vim.git",
   "git://github.com/mileszs/ack.vim.git",
   "git://github.com/kchmck/vim-coffee-script.git",
+  "git://github.com/altercation/vim-colors-solarized.git",
 ]
 
 vim_org_scripts = [

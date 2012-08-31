@@ -3,6 +3,9 @@ filetype off
 syntax on
 filetype plugin indent on
 
+set background=light
+colorscheme solarized
+
 set nocompatible
 set encoding=utf-8
 set showcmd
