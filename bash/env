@@ -7,7 +7,7 @@ export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
 export TMP=$HOME/tmp
 export RACK_ENV=development
 export NODE_PATH=$HOME/.node_libraries
-export EDITOR=/usr/local/bin/mvim
+export EDITOR="/usr/local/bin/mvim -v"
 export JAVA_HOME=$(/usr/libexec/java_home)
 
 if [[ -f "$HOME/.amazon_keys" ]]; then
