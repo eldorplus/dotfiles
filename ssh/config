@@ -51,3 +51,8 @@ Host macmini
   HostName macmini.local
   User developer
   IdentityFile ~/.ssh/id_rsa
+
+Host axlecb
+  HostName ec2-23-22-164-18.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
