@@ -23,11 +23,6 @@ Host katrine0
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
-Host caseblocks
-  HostName ec2-23-22-244-197.compute-1.amazonaws.com
-  User root
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
 Host cbmail
   HostName mail.caseblocks.com
   User root
@@ -38,7 +33,7 @@ Host heroku.com
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
 Host caseblocks
-  HostName ec2-23-22-244-197.compute-1.amazonaws.com
+  HostName ec2-50-16-242.compute-1.amazonaws.com
   User root
   IdentityFile ~/.ssh/id_ea_dev_rsa
 

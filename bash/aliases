@@ -29,6 +29,7 @@ alias edit_env="$EDITOR $HOME/bin/dotfiles/bash"
 alias reload_env="source $HOME/.bashrc"
 alias mvim="mvim -v"
 alias dotfiles="cd ~/bin/dotfiles"
+alias reload_tmux="tmux source-file ~/.tmux.conf"
 
 alias jrake='jruby -S rake'
 alias jgem='jruby -S gem'
