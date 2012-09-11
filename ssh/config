@@ -38,8 +38,8 @@ Host heroku.com
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
 Host caseblocks
-  HostName ec2-23-22-244-197.compute-1.amazonaws.com
-  User root
+  HostName ec2-50-16-48-242.compute-1.amazonaws.com 
+  User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
 Host chef-repo
