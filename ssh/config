@@ -33,8 +33,8 @@ Host heroku.com
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
 Host caseblocks
-  HostName ec2-50-16-242.compute-1.amazonaws.com
-  User root
+  HostName www.caseblocks.com
+  User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
 Host chef-repo
@@ -46,3 +46,8 @@ Host macmini
   HostName macmini.local
   User developer
   IdentityFile ~/.ssh/id_rsa
+
+Host axlecb
+  HostName ec2-23-22-164-18.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
