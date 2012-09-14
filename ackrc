@@ -1,0 +1,4 @@
+--type-add
+js=.coffee
+--type-add
+html=.hjs
