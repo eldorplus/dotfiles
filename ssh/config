@@ -32,6 +32,11 @@ Host caseblocks
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
+Host staging
+  HostName staging.caseblocks.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
 Host jenkins
   HostName  ec2-107-22-154-26.compute-1.amazonaws.com
   User ubuntu
@@ -53,7 +58,7 @@ Host cbmail
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
 Host cbredis
-  HostName ec2-174-129-89-238.compute-1.amazonaws.com
+  HostName ec2-67-202-53-40.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
