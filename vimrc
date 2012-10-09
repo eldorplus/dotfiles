@@ -3,7 +3,7 @@ filetype off
 syntax on
 filetype plugin indent on
  
-set background=dark
+set background=light
 colorscheme Tomorrow-Night
 
 set nocompatible
@@ -24,6 +24,7 @@ set smartcase
 
 map <leader>c <c-_><c-_>
 map <leader>n :NERDTreeToggle<CR>
+map <leader>t :tabnew<CR>
 
 if has("autocmd")
   autocmd bufwritepost .vimrc source $MYVIMRC
