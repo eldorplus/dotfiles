@@ -27,6 +27,7 @@ alias glog="git log --pretty=tformat:'%h %Cblue%cr%Creset %cn %Cgreen%s%Creset'"
 
 alias edit_ssh="$EDITOR $HOME/.ssh/config"
 alias edit_env="$EDITOR $HOME/bin/dotfiles/bash"
+alias list_ssh="cat $HOME/.ssh/config | grep Host"
 alias reload_env="source $HOME/.bashrc"
 alias mvim="mvim -v"
 alias dotfiles="cd ~/bin/dotfiles"

@@ -42,6 +42,11 @@ Host jenkins
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
+Host worker4
+  HostName ec2-184-73-122-204.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
 Host cbmongo1
   HostName ec2-107-21-86-157.compute-1.amazonaws.com
   User ubuntu
@@ -67,6 +72,12 @@ Host cbmonitor
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
+Host cbelastic1
+  HostName ec2-107-22-99-247.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
+
 Host chef-repo
   HostName github.com
   User git
@@ -79,5 +90,10 @@ Host macmini
 
 Host axlecb
   HostName ec2-23-22-164-18.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host axlebalance
+  HostName ec2-107-20-4-228.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
