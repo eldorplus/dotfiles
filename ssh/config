@@ -93,7 +93,12 @@ Host axlecb
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
-Host axlebalance
+Host tsbalance
   HostName ec2-107-20-4-228.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host aabalance
+  HostName ec2-75-101-236-153.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
