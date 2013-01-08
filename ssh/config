@@ -116,3 +116,16 @@ Host axlebay
   HostName ec2-107-21-146-92.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
+
+Host vik1
+  Hostname 184.73.177.95
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host vik3
+  Hostname ec2-174-129-186-229.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+
+

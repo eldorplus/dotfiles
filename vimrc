@@ -3,7 +3,7 @@ filetype off
 syntax on
 filetype plugin indent on
  
-set background=light
+set background=dark
 colorscheme Tomorrow-Night
 
 set nocompatible

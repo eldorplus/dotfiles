@@ -35,8 +35,8 @@ ZSH_THEME="robbyrussell"
 plugins=(git osx ruby rails3 rbenv)
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/bin/dotfiles/aliases
 source $HOME/bin/dotfiles/developer_env
+source $HOME/bin/dotfiles/aliases
 
 # Customize to your needs...
 export PATH=/Users/ijonas/.rbenv/shims:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:/Users/ijonas/bin:/Users/ijonas/.gem/ruby/1.8/bin:/Applications/Postgres.app/Contents/MacOS/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin:/Users/ijonas/.rbenv/shims:/usr/local/sbin:/usr/local/share/npm/bin:/Users/ijonas/bin:/Users/ijonas/.gem/ruby/1.8/bin:/Applications/Postgres.app/Contents/MacOS/bin:/Users/ijonas/bin/ec2/bin:/Users/ijonas/.rvm/bin:/Users/ijonas/bin/ec2/bin:/Users/ijonas/.rvm/bin
