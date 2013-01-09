@@ -127,5 +127,7 @@ Host vik3
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
-
-
+Host vik4
+  Hostname ec2-75-101-194-182.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
