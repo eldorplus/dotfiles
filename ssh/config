@@ -141,3 +141,18 @@ Host vik4
   Hostname ec2-75-101-194-182.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
+
+Host cbelastic-old
+  Hostname ec2-54-242-148-166.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host axlastic1
+  Hostname ec2-184-73-42-73.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host axlastic2
+  Hostname ec2-54-234-91-175.compute-1.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
