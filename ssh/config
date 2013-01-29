@@ -82,6 +82,16 @@ Host cbelastic2
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
+Host timemanagement
+  HostName ec2-23-22-129-55.compute-1.amazonaws.com 
+  User ubuntu
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
+Host chefserver
+  HostName ec2-107-20-97-254.compute-1.amazonaws.com 
+  User ubuntu
+  IdentityFile ~/.ssh/id_ea_dev_rsa
+
 Host chef-repo
   HostName github.com
   User git
