@@ -157,12 +157,12 @@ Host cbelastic-old
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
-Host axlastic1
-  Hostname ec2-184-73-42-73.compute-1.amazonaws.com
+Host eictrans-prod
+  Hostname ec2-23-23-43-43.compute-1.amazonaws.com
   User ubuntu
-  IdentityFile ~/.ssh/id_axle_rsa
+  IdentityFile ~/.ssh/id_eic_rsa
 
-Host axlastic2
-  Hostname ec2-54-234-91-175.compute-1.amazonaws.com
+Host eictrans-staging
+  Hostname ec2-54-235-229-76.compute-1.amazonaws.com
   User ubuntu
-  IdentityFile ~/.ssh/id_axle_rsa
+  IdentityFile ~/.ssh/id_eic_rsa
