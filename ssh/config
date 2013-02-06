@@ -82,11 +82,6 @@ Host cbelastic2
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
-Host ec2test
-  HostName ec2-54-234-139-231.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
 Host chef-repo
   HostName github.com
   User git
@@ -181,6 +176,3 @@ Host st-worker
   HostName ec2-184-73-130-107.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
-
-
-
