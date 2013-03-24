@@ -10,6 +10,8 @@ export RACK_ENV=development
 export NODE_PATH=$HOME/.node_libraries
 export EDITOR="/usr/local/bin/mvim -v"
 export JAVA_HOME=$(/usr/libexec/java_home)
+export CLASSPATH=".:/usr/local/lib/antlr-4.0-complete.jar:$CLASSPATH"
+
 
 if [[ -f "$HOME/.amazon_keys" ]]; then
     source "$HOME/.amazon_keys";

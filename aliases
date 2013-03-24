@@ -1,3 +1,5 @@
+alias antlr4='java -jar /usr/local/lib/antlr-4.0-complete.jar'
+alias grun='java org.antlr.v4.runtime.misc.TestRig'
 alias b='bundle exec'
 alias gst='git status'
 alias gl='git pull'
@@ -36,6 +38,7 @@ alias reload_tmux="tmux source-file ~/.tmux.conf"
 alias jrake='jruby -S rake'
 alias jgem='jruby -S gem'
 alias jss='jruby -S script/server'
+alias top='htop'
 
 alias cdcb='cd ~/Dropbox/code/caseblocks'
 alias h='history'

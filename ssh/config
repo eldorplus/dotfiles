@@ -176,3 +176,8 @@ Host st-worker
   HostName ec2-184-73-130-107.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
+
+Host st-web
+  HostName ec2-54-234-79-198.compute-1.amazonaws.com 
+  User ubuntu
+  IdentityFile ~/.ssh/id_ea_dev_rsa
