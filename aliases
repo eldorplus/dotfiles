@@ -34,6 +34,7 @@ alias reload_env="source $HOME/.bashrc"
 alias mvim="mvim -v"
 alias dotfiles="cd ~/bin/dotfiles"
 alias reload_tmux="tmux source-file ~/.tmux.conf"
+alias assh="ssh -i $HOME/.ssh/id_axle_rsa"
 
 alias jrake='jruby -S rake'
 alias jgem='jruby -S gem'
