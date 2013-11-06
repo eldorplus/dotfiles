@@ -1,5 +1,3 @@
-alias antlr4='java -jar /usr/local/lib/antlr-4.0-complete.jar'
-alias grun='java org.antlr.v4.runtime.misc.TestRig'
 alias b='bundle exec'
 alias gst='git status'
 alias gl='git pull'
@@ -20,7 +18,6 @@ alias puom='git push origin master'
 alias plom='git pull origin master'
 alias puod='git push origin development'
 alias plod='git pull origin development'
-alias sgi='sudo gem1.8 install'
 alias sagi='sudo apt-get install'
 alias ll='ls -l'
 alias lal='ls -al'
@@ -30,61 +27,25 @@ alias glog="git log --pretty=tformat:'%h %Cblue%cr%Creset %cn %Cgreen%s%Creset'"
 alias edit_ssh="$EDITOR $HOME/.ssh/config"
 alias edit_env="$EDITOR $HOME/bin/dotfiles"
 alias list_ssh="cat $HOME/.ssh/config | grep Host"
-alias reload_env="source $HOME/.bashrc"
+alias reload_env="source $HOME/.zshrc"
 alias mvim="mvim -v"
 alias dotfiles="cd ~/bin/dotfiles"
 alias reload_tmux="tmux source-file ~/.tmux.conf"
 alias assh="ssh -i $HOME/.ssh/id_axle_rsa"
 
-alias jrake='jruby -S rake'
-alias jgem='jruby -S gem'
-alias jss='jruby -S script/server'
+alias sd="sudo docker"
+alias dps="sudo docker ps"
+alias dim="sudo docker images"
+alias drim="sudo docker rmi"
+
 alias top='htop'
 
-alias cdcb='cd ~/Dropbox/code/caseblocks'
 alias h='history'
-alias hq='history | grep'
+alias hg='history | grep'
 
 alias tb2='tar -jxvf'
 alias tbz='tar -zxvf'
 alias b2='bzip2 -d'
 alias b2z='bzip2 -z'
-
-alias nginx-start="sudo launchctl load -w /Library/LaunchDaemons/org.macports.nginx.plist"
-alias nginx-stop="sudo launchctl unload /Library/LaunchDaemons/org.macports.nginx.plist"
-alias nginx-restart="sudo launchctl unload /Library/LaunchDaemons/org.macports.nginx.plist &amp;&amp; sudo launchctl load -w /Library/LaunchDaemons/org.macports.nginx.plist"
-alias nginx-reload="sudo /opt/local/sbin/nginx -s reload"
-
-
-alias ss="./script/server"
-
-alias mysqlstart="cd /usr/local/Cellar/mysql/5.5.19 ; /usr/local/Cellar/mysql/5.5.19/bin/mysqld_safe"
-alias mysqlstop="/usr/local/Cellar/mysql/5.5.19/bin/mysqladmin -uroot shutdown"
-
-alias pgstart="pg_ctl -D /Volumes/Databases/postgres -l /Volumes/Databases/postgres/server.log start"
-alias pgstop="pg_ctl -D /Volumes/Databases/postgres stop -s -m fast"
-
-alias gojruby="export PATH=$JRUBY_HOME/bin:$PATH"
-
-alias mongostart="mongod run --config /usr/local/etc/mongod.conf"
-# alias mongostart="sudo /usr/local/bin/mongod --fork --logpath /var/log/mongodb.log --logappend --dbpath /var/lib/mongodb/"
-alias mongostop="mongo --eval \"db.shutdownServer()\" admin"
-
-alias es_start="elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.19.8/config/elasticsearch.yml"
-
-alias redisstart="sudo redis-server /etc/redis.conf"
-alias redisteststart="sudo redis-server /etc/redistest.conf"
-alias redisstop="sudo /usr/bin/killall -9 redis-server"
-
-alias es_start="elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.19.7/config/elasticsearch.yml"
-
-alias subl="$HOME/bin/sublime2/sublime_text"
-
-function cssh { /usr/bin/ssh -i $HOME/.ssh/cnf_deploy.key root@$1; }
-
-function ccdn { /usr/bin/scp -i $HOME/.ssh/cnf_deploy.key root@$1:$2 $2;}
-function ccup { /usr/bin/scp -i $HOME/.ssh/cnf_deploy.key $1 root@$2:$1;}
-
-function zipdir { /usr/bin/tar -jcf $1.tar.bz2 $1/; }
 
 function find_in { find . -name $1 -print | xargs grep --color=auto -inH $2; }
