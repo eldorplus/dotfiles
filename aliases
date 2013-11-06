@@ -18,7 +18,11 @@ alias puom='git push origin master'
 alias plom='git pull origin master'
 alias puod='git push origin development'
 alias plod='git pull origin development'
+
 alias sagi='sudo apt-get install'
+alias upd_ub='sudo apt-get -y update'
+alias upg_ub='sudo apt-get -y upgrade'
+
 alias ll='ls -l'
 alias lal='ls -al'
 alias lh='ls -lh'
@@ -37,6 +41,11 @@ alias sd="sudo docker"
 alias dps="sudo docker ps"
 alias dim="sudo docker images"
 alias drim="sudo docker rmi"
+
+alias vup="FORWARD_DOCKER_PORTS=1 FORWARD_50K_PORTS=1 vagrant up"
+alias valt="vagrant halt"
+alias vsleep="vagrant suspend"
+alias vwake="vagrant resume"
 
 alias top='htop'
 
