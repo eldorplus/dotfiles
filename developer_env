@@ -1,30 +1,13 @@
-export EC2_HOME=$HOME/bin/ec2
-export PATH=$PATH:$EC2_HOME/bin
-export EC2_URL=https://ec2.us-east-1.amazonaws.com
-export EC2_PRIVATE_KEY=`ls $EC2_HOME/ea_pem/pk-*.pem`
-export EC2_CERT=`ls $EC2_HOME/ea_pem/cert-*.pem`
-export AWS_ACCOUNT_NO=511927138091
-
 export TMP=$HOME/tmp
 export RACK_ENV=development
 export NODE_PATH=$HOME/.node_libraries
-export EDITOR="/Users/ijonas/bin/subl"
-export JAVA_HOME=$(/usr/libexec/java_home)
-export PLAY_HOME=$HOME/bin/play
-export SCALA_HOME=$HOME/bin/scala
-export SBT_HOME=$HOME/bin/sbt
-export CLASSPATH=".:/usr/local/lib/antlr-4.0-complete.jar:$CLASSPATH"
+export EDITOR="/Users/ijonas/bin/sublime2/sublime_text"
 export GOROOT=/usr/local/go
 export GOPATH=$HOME/gocode
 
 
-if [[ -f "$HOME/.amazon_keys" ]]; then
-    source "$HOME/.amazon_keys";
-fi
-
 export NODE_PATH=/usr/local/lib/node
 
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:$PLAY_HOME:$SCALA_HOME/bin:$SBT_HOME/bin:$GOROOT/bin:$GOPATH/bin:$PATH
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:$GOROOT/bin:$GOPATH/bin:$PATH
 
-[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 eval "$(rbenv init -)"

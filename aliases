@@ -78,6 +78,8 @@ alias redisstop="sudo /usr/bin/killall -9 redis-server"
 
 alias es_start="elasticsearch -f -D es.config=/usr/local/Cellar/elasticsearch/0.19.7/config/elasticsearch.yml"
 
+alias subl="$HOME/bin/sublime2/sublime_text"
+
 function cssh { /usr/bin/ssh -i $HOME/.ssh/cnf_deploy.key root@$1; }
 
 function ccdn { /usr/bin/scp -i $HOME/.ssh/cnf_deploy.key root@$1:$2 $2;}
