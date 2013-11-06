@@ -33,6 +33,11 @@ alias dotfiles="cd ~/bin/dotfiles"
 alias reload_tmux="tmux source-file ~/.tmux.conf"
 alias assh="ssh -i $HOME/.ssh/id_axle_rsa"
 
+alias sd="sudo docker"
+alias dps="sudo docker ps"
+alias dim="sudo docker images"
+alias drim="sudo docker rmi"
+
 alias top='htop'
 
 alias h='history'
