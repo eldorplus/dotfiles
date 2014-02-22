@@ -8,9 +8,9 @@ export AWS_ACCOUNT_NO=511927138091
 export TMP=$HOME/tmp
 export RACK_ENV=development
 export EDITOR="vim"
-export GOROOT=/usr/local/go
+export GOROOT=/usr/local/src/go
 export GOPATH=$HOME/gocode
-
+export AWS_CONFIG_FILE=/etc/aws.conf
 
 export NODE_PATH=/usr/local/lib/node
 export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:$GOROOT/bin:$GOPATH/bin:$PATH

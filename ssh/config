@@ -181,3 +181,11 @@ Host st-web
   HostName ec2-54-234-79-198.compute-1.amazonaws.com 
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
+
+Host pi
+  HostName 192.168.0.10
+  User pi
+
+Host *.ec2
+  IdentityFile ~/.ssh/id_rsa
+  User ubuntu

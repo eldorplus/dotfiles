@@ -4,7 +4,7 @@ syntax on
 filetype plugin indent on
  
 set background=dark
-colorscheme Tomorrow-Night
+colorscheme Tomorrow-Night-Bright
 
 set nocompatible
 set encoding=utf-8

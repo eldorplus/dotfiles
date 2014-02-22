@@ -30,6 +30,7 @@ alias glog="git log --pretty=tformat:'%h %Cblue%cr%Creset %cn %Cgreen%s%Creset'"
 
 alias edit_ssh="$EDITOR $HOME/.ssh/config"
 alias edit_env="$EDITOR $HOME/bin/dotfiles"
+alias edit_hosts="sudo $EDITOR /etc/hosts"
 alias list_ssh="cat $HOME/.ssh/config | grep Host"
 alias reload_env="source $HOME/.zshrc"
 alias mvim="mvim -v"
@@ -50,11 +51,12 @@ alias vwake="vagrant resume"
 alias top='htop'
 
 alias h='history'
-alias hg='history | grep'
 
 alias tb2='tar -jxvf'
 alias tbz='tar -zxvf'
 alias b2='bzip2 -d'
 alias b2z='bzip2 -z'
+
+alias t="/usr/local/Cellar/todo-txt/2.9/bin/todo.sh -d $HOME/Dropbox/todo/todo.cfg"
 
 function find_in { find . -name $1 -print | xargs grep --color=auto -inH $2; }
