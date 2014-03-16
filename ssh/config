@@ -1,84 +1,5 @@
-Host xbmc
-  HostName 192.168.0.50
-  User xbmc
-  IdentityFile ~/.ssh/id_rsa
-
-Host newweb
-  HOstName ec2-107-20-81-194.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_rsa
-
-Host katrine1
-  HostName ec2-23-21-176-230.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-  
-Host katrine2
-  HostName ec2-23-20-138-175.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host katrine0
-  HostName ec2-23-20-50-9.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host heroku.com
-  HostName heroku.com
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host caseblocks
-  HostName ec2-107-22-61-109.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host staging
-  HostName staging.caseblocks.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
 Host jenkins
   HostName  ec2-107-22-154-26.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host worker4
-  HostName ec2-184-73-122-204.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host cbmongo1
-  HostName ec2-107-21-86-157.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host cbmongo2
-  HostName ec2-50-17-68-226.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host cbmail
-  HostName mail.caseblocks.com
-  User root
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host cbredis
-  HostName ec2-67-202-53-40.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host cbmonitor
-  HostName ec2-23-22-163-232.compute-1.amazonaws.com 
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host cbelastic1
-  HostName ec2-107-22-99-247.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host cbelastic2
-  HostName ec2-50-19-54-138.compute-1.amazonaws.com 
   User ubuntu
   IdentityFile ~/.ssh/id_ea_dev_rsa
 
@@ -94,26 +15,6 @@ Host macmini
 
 Host axlecb
   HostName ec2-23-22-164-18.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_axle_rsa
-
-Host tsbalance
-  HostName ec2-107-20-4-228.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_axle_rsa
-
-Host aabalance
-  HostName ec2-75-101-236-153.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_axle_rsa
-
-Host axlemongo
-  HostName ec2-50-16-52-224.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_axle_rsa
-
-Host axlebay
-  HostName ec2-107-21-146-92.compute-1.amazonaws.com
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
@@ -142,46 +43,6 @@ Host vik4
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
-Host cbelastic-old
-  Hostname ec2-54-242-148-166.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_axle_rsa
-
-Host eictrans-prod
-  Hostname ec2-23-23-43-43.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_eic_rsa
-
-Host eictrans-staging
-  Hostname ec2-54-235-229-76.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_eic_rsa
-
-Host st-elastic
-  HostName ec2-23-20-45-182.compute-1.amazonaws.com 
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host st-mongo
-  HostName ec2-23-22-59-100.compute-1.amazonaws.com 
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host st-redis
-  HostName ec2-184-72-170-27.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host st-worker
-  HostName ec2-184-73-130-107.compute-1.amazonaws.com
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
-Host st-web
-  HostName ec2-54-234-79-198.compute-1.amazonaws.com 
-  User ubuntu
-  IdentityFile ~/.ssh/id_ea_dev_rsa
-
 Host pi
   HostName 192.168.0.10
   User pi
@@ -189,3 +50,68 @@ Host pi
 Host *.ec2
   IdentityFile ~/.ssh/id_rsa
   User ubuntu
+
+Host build
+  Hostname 10.18.20.11
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host stg_mongo
+  Hostname 10.18.20.12
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host stg_es
+  Hostname 10.18.20.13
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host stg_mysql
+  Hostname 10.18.20.15
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host stg_redis_memcached
+  Hostname 10.18.20.14
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host stg_web
+  Hostname 10.18.20.16
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host stg_worker
+  Hostname 10.18.20.18
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host registry
+  Hostname 10.18.20.17
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host mysql1
+  Hostname 10.18.16.15
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host mysql2
+  Hostname 10.18.16.16
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host mongo1
+  Hostname 10.18.16.13
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host mongo2
+  Hostname 10.18.16.14
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host memredis
+  Hostname 10.18.16.11
+  User ijonas
+  IdentityFile ~/.ssh/id_axle_rsa
