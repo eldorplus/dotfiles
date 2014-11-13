@@ -35,7 +35,7 @@ ZSH_THEME="robbyrussell"
 plugins=(git osx ruby rails rbenv)
 
 source $ZSH/oh-my-zsh.sh
-source $HOME/bin/dotfiles/developer_env
-source $HOME/bin/dotfiles/aliases
 
-# Customize to your needs...
+source $HOME/bin/dotfiles/developer_env
+source $HOME/bin/dotfiles/private_developer_env
+source $HOME/bin/dotfiles/aliases

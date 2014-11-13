@@ -1,19 +1,21 @@
-export EC2_HOME=$HOME/bin/ec2
-export PATH=$PATH:$EC2_HOME/bin
+# export EC2_HOME=$HOME/bin/ec2
+# export PATH=$PATH:$EC2_HOME/bin
 # export EC2_URL=https://ec2.us-east-1.amazonaws.com
 # export EC2_PRIVATE_KEY=`ls $EC2_HOME/ea_pem/pk-*.pem`
 # export EC2_CERT=`ls $EC2_HOME/ea_pem/cert-*.pem`
-export AWS_ACCOUNT_NO=511927138091
+# export AWS_ACCOUNT_NO=511927138091
 
 export TMP=$HOME/tmp
 export RACK_ENV=development
 export EDITOR="vim"
-export GOROOT=/usr/local/src/go
-export GOPATH=$HOME/gocode
+export GOROOT=/usr/local/go
+export GOPATH=$HOME
 export AWS_CONFIG_FILE=/etc/aws.conf
-
+export DOCKER_HOST=tcp://localhost:4243
 export NODE_PATH=/usr/local/lib/node
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:$GOROOT/bin:$GOPATH/bin:$PATH
+export PATH=/usr/local/opt/ruby/bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/npm/bin:$HOME/bin:$HOME/.gem/ruby/1.8/bin:$GOROOT/bin:$GOPATH/bin:/Applications/Postgres.app/Contents/Versions/9.3/bin:$PATH
 export PS1="%{$fg_bold[yellow]%}%m $PS1"
 
-eval "$(rbenv init -)"
+export DOCKER_HOST=tcp://192.168.59.103:2376
+export DOCKER_CERT_PATH=/Users/ijonas/.boot2docker/certs/boot2docker-vm
+export DOCKER_TLS_VERIFY=1

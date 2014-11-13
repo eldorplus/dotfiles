@@ -47,6 +47,7 @@ alias vup="FORWARD_DOCKER_PORTS=1 FORWARD_50K_PORTS=1 vagrant up"
 alias valt="vagrant halt"
 alias vsleep="vagrant suspend"
 alias vwake="vagrant resume"
+alias vssh="vagrant ssh"
 
 alias top='htop'
 

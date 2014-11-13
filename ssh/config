@@ -19,27 +19,37 @@ Host axlecb
   IdentityFile ~/.ssh/id_axle_rsa
 
 Host ts1
-  HostName 54.243.49.216
+  HostName 107.20.183.227
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
 Host ts2
-  HostName 54.243.48.87
+  HostName 54.243.54.124
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
-Host vik1
+Host tsworker
+  HostName  54.211.253.161
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host vikutil
   Hostname 184.73.177.95
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
-Host vik3
-  Hostname ec2-174-129-186-229.compute-1.amazonaws.com
+Host vikstaging
+  Hostname 54.227.103.15
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
-Host vik4
-  Hostname ec2-75-101-194-182.compute-1.amazonaws.com
+Host viknew
+  Hostname 54.211.2.152
+  User ubuntu
+  IdentityFile ~/.ssh/id_axle_rsa
+
+Host vikprod2
+  Hostname 184.72.197.150
   User ubuntu
   IdentityFile ~/.ssh/id_axle_rsa
 
@@ -62,7 +72,7 @@ Host stg_mongo
   IdentityFile ~/.ssh/id_axle_rsa
 
 Host stg_es
-  Hostname 10.18.20.13
+  Hostname 10.18.20.20
   User ijonas
   IdentityFile ~/.ssh/id_axle_rsa
 
