@@ -6,11 +6,10 @@
 #
 # (c) Ijonas Kisselbach 2009, 2010, 2011
 #
-sudo apt-get install git-core
+sudo apt-get install git-core vim
 mkdir -p ~/bin/dotfiles
-curl -s https://github.com/xvzf/vcprompt/raw/master/bin/vcprompt > ~/bin/vcprompt && chmod 755 bin/vcprompt
-git clone git://github.com/ijonas/dotfiles.git ~/bin/dotfiles
-curl -s https://github.com/ijonas/dotfiles/raw/master/home-bashrc > ~/.bashrc
-ln -s ~/bin/dotfiles/rvmrc ~/.rvmrc
+git clone https://github.com/ijonas/dotfiles.git ~/bin/dotfiles
+mv ~/.bashrc ~/.bashrc.old
+ln -s ~/bin/dotfiles/home-bashrc ~/.bashrc
 ln -s ~/bin/dotfiles/vim ~/.vim
 ln -s ~/bin/dotfiles/vimrc ~/.vimrc
