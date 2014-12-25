@@ -1,7 +1,17 @@
-call pathogen#runtime_append_all_bundles()
 filetype off
 syntax on
-filetype plugin indent on
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'gmarik/Vundle.vim'
+Bundle "pangloss/vim-javascript"
+Bundle 'moll/vim-node'
+Bundle 'kien/ctrlp.vim'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
  
 set background=dark
 colorscheme Tomorrow-Night-Bright
