@@ -5,6 +5,9 @@ Some useful scripts used by Ijonas Kisselbach
 Use at your own peril.
 
 To initiate
-<pre>
-mkdir -p ~/bin && curl -s https://raw.github.com/ijonas/dotfiles/master/bin/configure_for_ijonas > ~/bin/configure_for_ijonas && chmod 755 bin/configure_for_ijonas && bin/configure_for_ijonas
-</pre>
+
+    mkdir -p ~/bin 
+    curl -s https://raw.githubusercontent.com/ijonas/dotfiles/master/bin/configure_for_ijonas > ~/bin/configure_for_ijonas
+    chmod 755 bin/configure_for_ijonas 
+    bin/configure_for_ijonas
+
