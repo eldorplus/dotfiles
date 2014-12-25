@@ -9,6 +9,7 @@
 sudo apt-get install git-core vim
 mkdir -p ~/bin/dotfiles
 git clone https://github.com/ijonas/dotfiles.git ~/bin/dotfiles
+curl -sL https://github.com/djl/vcprompt/raw/master/bin/vcprompt > ~/bin/vcprompt
 mv ~/.bashrc ~/.bashrc.old
 ln -s ~/bin/dotfiles/home-bashrc ~/.bashrc
 ln -s ~/bin/dotfiles/vim ~/.vim
