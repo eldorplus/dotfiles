@@ -8,6 +8,12 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'moll/vim-node'
 Plugin 'kien/ctrlp.vim'
+Plugin 'bling/vim-airline'
+Plugin 'fatih/vim-go'
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'rking/ag.vim'
+Plugin 'scrooloose/nerdtree'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -26,7 +32,7 @@ set nowrap
 set tabstop=2 shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
-
+set laststatus=2
 set hlsearch
 set incsearch
 set ignorecase
@@ -54,3 +60,6 @@ vmap <D-]> >gv
 nmap <leader>v :tabedit $MYVIMRC<CR>
 
 set clipboard=unnamed
+
+let g:go_fmt_command = "goimports"
+

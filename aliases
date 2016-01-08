@@ -18,6 +18,8 @@ alias puom='git push origin master'
 alias plom='git pull origin master'
 alias puod='git push origin development'
 alias plod='git pull origin development'
+alias plo='git pull origin'
+alias puo='git push origin'
 
 alias sagi='sudo apt-get install'
 alias upd_ub='sudo apt-get -y update'
@@ -59,5 +61,11 @@ alias b2='bzip2 -d'
 alias b2z='bzip2 -z'
 
 alias t="/usr/local/Cellar/todo-txt/2.9/bin/todo.sh -d $HOME/Dropbox/todo/todo.cfg"
+
+alias sro='sr-grab o'
+alias srn='sr-grab n'
+alias srx='sr-grab c'
+alias sra='sr-grab a'
+alias srr='sr-grab r'
 
 function find_in { find . -name $1 -print | xargs grep --color=auto -inH $2; }
