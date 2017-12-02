@@ -1,26 +1,33 @@
 filetype off
 syntax on
 filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
 
-Plugin 'gmarik/Vundle.vim'
-Plugin 'pangloss/vim-javascript'
-Plugin 'moll/vim-node'
-Plugin 'kien/ctrlp.vim'
-Plugin 'bling/vim-airline'
-Plugin 'fatih/vim-go'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-Plugin 'rking/ag.vim'
-Plugin 'scrooloose/nerdtree'
+call plug#begin('~/.vim/plugged')
 
-call vundle#end()            " required
+Plug 'pangloss/vim-javascript'
+Plug 'moll/vim-node'
+Plug 'kien/ctrlp.vim'
+Plug 'bling/vim-airline'
+Plug 'fatih/vim-go'
+" Plug 'godlygeek/tabular'
+Plug 'plasticboy/vim-markdown'
+Plug 'rking/ag.vim'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+Plug 'chriskempson/base16-vim'
+Plug 'tpope/vim-fugitive'
+Plug 'ggreer/the_silver_searcher'
+Plug 'rafi/awesome-vim-colorschemes'
+Plug 'Shougo/neocomplete'
+Plug 'prettier/vim-prettier', {
+  \ 'do': 'npm install',
+  \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql'] }
+
+call plug#end()
+
 filetype plugin indent on    " required
 
- 
-set background=dark
-colorscheme Tomorrow-Night-Bright
+colorscheme molokai
 
 set nocompatible
 set encoding=utf-8
@@ -61,5 +68,15 @@ nmap <leader>v :tabedit $MYVIMRC<CR>
 
 set clipboard=unnamed
 
+let g:ackprg = 'ag --vimgrep'
+let g:prettier#config#trailing_comma = 'es5'
+
+
 let g:go_fmt_command = "goimports"
+"au FileType go nmap <Leader>l <Plug>(go-metalinter)
+"let g:go_metalinter_command = ""
+"let g:go_metalinter_enabled = ['vet', 'errcheck', 'deadcode', 'interfacer', 'unconvert', 'goconst', 'gas']
+"let g:go_metalinter_path = "./..."
+"let g:go_metalinter_deadline = "15s"
+"let g:go_metalinter_autosave = 0
 

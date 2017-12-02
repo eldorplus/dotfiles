@@ -39,3 +39,7 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/bin/dotfiles/developer_env
 source $HOME/bin/dotfiles/private_developer_env
 source $HOME/bin/dotfiles/aliases
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
