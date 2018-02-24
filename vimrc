@@ -19,6 +19,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'ggreer/the_silver_searcher'
 Plug 'rafi/awesome-vim-colorschemes'
 Plug 'Shougo/neocomplete'
+Plug 'kchmck/vim-coffee-script'
 Plug 'prettier/vim-prettier', {
   \ 'do': 'npm install',
   \ 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql'] }
